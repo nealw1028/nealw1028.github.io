@@ -12,6 +12,12 @@
 只有20190203 YYYYMMDD在SQL SERVER当中才是标准格式， 2019-02-03是不算的。
 
 
+## 1.3 Implement functions and aggregate data
+* scalar-valued functions return a single value and table-valued functions return a table result.
+#### Type conversion functions
+* CAST
+.... CAST([Source Expression] AS Format): CAST('100' AS INT)
+* Convert
 
 
 
