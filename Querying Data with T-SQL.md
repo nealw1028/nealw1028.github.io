@@ -10,5 +10,16 @@
 ## Filtering date and time data
 ### 标准日期格式 
 只有20190203 YYYYMMDD在SQL SERVER当中才是标准格式， 2019-02-03是不算的。
-# Query Data with advanced T-SQL comments
+
+
+
+
+
+
+
+
+
+
+# Query Data with advanced T-SQL components
+## Subquery and apply
 # Program Databases by using T-SQL
