@@ -16,7 +16,7 @@
 * scalar-valued functions return a single value and table-valued functions return a table result.
 #### Type conversion functions
 * CAST
-.... CAST([Source Expression] AS Format): CAST('100' AS INT)
+> CAST([Source Expression] AS Format): CAST('100' AS INT)
 * Convert
 
 
