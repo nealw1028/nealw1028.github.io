@@ -15,12 +15,19 @@
 ## 1.3 Implement functions and aggregate data
 * scalar-valued functions return a single value and table-valued functions return a table result.
 #### Type conversion functions
-* CAST
+* CAST()
 ---
 CAST([Source Expression] AS Format): CAST('100' AS INT)
 ---
-* Convert
+#### Conversion Failure
+One of the problems with CAST, CONVERT, and Parse is that if the function fails to convert a value within a query, the whole query fails and stops processing.
+Alternative: Try_CONVERT   return normal result if succeeds and return null if fails
 
+#### Format Function
+FORMAT(SYSDATETIME(),'yyyy-MM-dd')
+
+#### Current date and time
+**GetDATE** is T-SQL-specific in datetime format
 
 
 
